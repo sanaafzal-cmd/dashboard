@@ -1,0 +1,604 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Sunny Admin - Dashboard</title>
+    
+	<!-- Vendors Style-->
+	<link rel="stylesheet" href="css/vendors_css.css">
+	  
+	<!-- Style-->  
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/skin_color.css">
+     
+  </head>
+
+<body class="hold-transition dark-skin sidebar-mini theme-primary fixed">
+	
+<div class="wrapper">
+
+  <header class="main-header">
+    <!-- Header Navbar -->
+    <nav class="navbar navbar-static-top pl-30" style="background-color: #171616;">
+      <!-- Sidebar toggle button-->
+	  <div>
+		  <ul class="nav">
+			<li class="btn-group nav-item">
+				<a href="#" class="waves-effect waves-light nav-link rounded svg-bt-icon" data-toggle="push-menu" role="button">
+					<i class="nav-link-icon mdi mdi-menu"></i>
+			    </a>
+			</li>
+						
+			
+		  </ul>
+	  </div>
+		
+      <div class="navbar-custom-menu r-side">
+        <ul class="nav navbar-nav">
+			<!--SMS-->
+			<li class="dropdown notifications-menu">
+				<a href="#" class="waves-effect waves-light rounded dropdown-toggle" data-toggle="dropdown" title="Notifications">
+					<img src="images/icons8-comment-50.png" style="color: #ffffff;">
+				</a>
+				</li>
+		 		
+		  <!-- Notifications -->
+		  <li class="dropdown notifications-menu">
+			<a href="#" class="waves-effect waves-light rounded dropdown-toggle" data-toggle="dropdown" title="Notifications">
+			  <i class="ti-bell"></i>
+			</a>
+			</li>
+			<li class="dropdown notifications-menu">
+				<a class="waves-effect waves-light rounded dropdown-toggle">
+				<span style="font-size: 12px;">Daniel Wargo</span>
+				<span style="font-size: 12px;">Daniel Wargo</span>
+				</a>
+				</li>
+		  
+	      <!-- User Account-->
+          <li class="dropdown user user-menu">	
+			<a href="#" class="waves-effect waves-light rounded dropdown-toggle p-0" data-toggle="dropdown" title="User">
+				
+				<img src="images/avatar/1.jpg" alt="">
+
+			</a>
+			
+          </li>	
+		 
+			
+        </ul>
+      </div>
+    </nav>
+  </header>
+  
+  <!-- Left side column. contains the logo and sidebar -->
+  <aside class="main-sidebar" style="background-color: #171616 !important;">
+    <!-- sidebar-->
+    <section class="sidebar">	
+		
+        <div class="user-profile">
+			<div class="ulogo">
+				 <a href="index.html">
+				  <!-- logo for regular state and mobile devices -->
+					 <div class="d-flex align-items-center justify-content-center">					 	
+						  <img src="images/logo_chanfro.png" alt="logo" style="width: 100%; height: 70px;">
+						 
+					 </div>
+				</a>
+			</div>
+        </div>
+      
+      <!-- sidebar menu-->
+      <ul class="sidebar-menu" data-widget="tree" style="background-color: #171616 !important;">  
+		  
+		<li>
+          <a href="index.html">
+			<span>Dashboard</span>
+          </a>
+        </li>  
+		
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-arrow-right" style="color: #aca7a7;"></i>
+            <span>Gestao</span>
+          </a>
+        </li> 
+		  
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-arrow-right" style="color: #aca7a7;"></i>
+			 <span>Consumo Combustivel</span>
+          </a>
+          
+        </li>
+		
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-arrow-right" style="color: #aca7a7;"></i>
+            <span>Emissoes</span>
+          </a>
+         
+        </li> 
+		
+		<li class="treeview">
+			<a href="#">
+			  <i class="fa fa-arrow-right" style="color: #aca7a7;"></i>
+			  <span>Analize detalhada</span>
+			</a>
+		   
+		  </li> 
+		  <li class="treeview">
+			<a href="#">
+			  <i class="fa fa-arrow-right" style="color: #aca7a7;"></i>
+			  <span>Ranking de Motoristas</span>
+			 
+			</a>
+		   
+		  </li> 
+		 			   		  		  
+              
+        
+      </ul>
+    </section>
+	
+  </aside>
+
+  <!-- Content Wrapper. Contains page content -->
+  <div class="content-wrapper">
+	  <div class="container-full">
+
+		<!-- Main content -->
+		<section class="content" style="background-color: black !important;">
+			<div class="row">
+				<div class="col">
+					<h1>Dashboard</h1>
+					<p>Track and Manage your heavy fleet's decarbonisation progress with real-time data and insights on this dashobard.</p>
+					<div class="d-buttons">
+					<button class="btn"><i class="fa fa-home"></i> Filter</button>
+					<button class="btn"><i class="fa fa-home"></i> Trimstre</button>
+					<button class="btn"><i class="fa fa-home"></i> Search</button>
+					</div>
+				</div>
+				
+			</div>
+			<div class="row">
+				
+				<div class="col-xl-8 col-12">
+					
+					<div class="box overflow-hidden pull-up" style="background-color: #171616;">
+						<div class="box-body">	
+							<div class="d-flex justify-content-between align-items-center">
+								<h4>Overview</h4>
+								<img src="images/icons8-ellipsis-60.png" width="30" height="30">
+							</div>							
+							<div class="row">
+								<div class="col-4 pt-60">
+									<img src="images/truck.png" style="transform: rotateY(180deg);">
+
+								</div>
+								<div class="col-8">
+									<div class="row">
+										<div class="col">
+											<h4 class="mb-0">10,000kg</h4>
+											<p style="font-size: 12px;">Total Emissao Co2</p>
+
+										</div>
+										<div class="col">
+											<h4 class="mb-0">1000L</h4>
+											<p style="font-size: 12px;">Cons. Combustivel</p>
+
+										</div>
+										<div class="col">
+											<h4 class="mb-0">5%</h4>
+											<p style="font-size: 12px;">Reducao de Carbono</p>
+
+										</div>
+
+									</div>
+									
+									<div id="charts_widget_43_chart"></div>	
+
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-12">
+					<div class="box overflow-hidden pull-up">
+						<div class="box-body">							
+							<div>
+								<p class="text-mute mt-20 mb-0 font-size-16">Key Metrices</p>
+							</div>
+							<div class="d-flex">
+								<div>
+
+								</div>
+								<div>
+									<p class="mt-20 mb-0 font-size-16">250</p>
+									<p>Total number of vehicles in fleet</p>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				
+				<div class="col-xl-4 col-12">
+					<div class="box overflow-hidden pull-up" style="background-color: #171616;">
+						<div class="box-body">	
+							<div class="d-flex justify-content-between align-items-center">
+								<h4>Emission Trend</h4>
+								<img src="images/icons8-ellipsis-60.png" width="30" height="30">
+							</div>						
+							<div>
+								<h3 class="mb-0 mt-2">250,000</h3>
+								<p class="mb-0">tons per quarter</p>
+								<p style="font-size: 8px;">2% less than previous quarter</p>
+							</div>
+							<div id="recent_trend"></div>
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-12">
+					<div class="box overflow-hidden pull-up" style="background-color: #171616;">
+						<div class="box-body">	
+							<div class="d-flex justify-content-between align-items-center">
+								<h4>Fuel Type</h4>
+								<img src="images/icons8-ellipsis-60.png" width="30" height="30">
+							</div>						
+							<div class="d-flex align-items-center justify-content-center">
+								<button class="btn-per"><img src="images/diesel.png"> Diesel</button>
+					<button class="btn-per"><img src="images/biodiesel.png"> Biodiesel</button>
+					<button class="btn-per"><img src="images/petrol.png"> Petrol</button>
+					<button class="btn-per"><img src="images/petrolPr.png"> Petrol Pr</button>
+					<button class="btn-per"><img src="images/purple.png"> Other</button>
+							</div>
+
+							<div class="d-flex align-items-center justify-content-end">
+								<div id="chart41"></div>
+							</div>
+
+							<img src="images/Frame.svg" style="position: absolute; top: 160px;">
+							
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-8 col-12">
+					<div class="box overflow-hidden pull-up" style="background-color: #171616;">
+						<div class="box-body">							
+							<div class="d-flex justify-content-between align-items-center">
+								<h4>Maintenance History</h4>
+								<img src="images/icons8-ellipsis-60.png" width="30" height="30">
+							</div>
+							<div class="table-responsive">
+							<table class="table">
+								<thead>
+								  <tr>
+									<th scope="col">Vehicle Rego</th>
+									<th scope="col">Last Maintenance</th>
+									<th scope="col">Next Maintenance due</th>
+									<th scope="col">Oil Change due</th>
+									<th scope="col">Battery Check</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr>
+									<th scope="row">MMP2356</th>
+									<td>02/01/2022</td>
+									<td>04/01/2022</td>
+									<td>05/01/2022</td>
+									<td>Ok</td>
+								  </tr>
+								  <tr>
+									<th scope="row">MMP2356</th>
+									<td>02/01/2022</td>
+									<td>04/01/2022</td>
+									<td>05/01/2022</td>
+									<td>Ok</td>
+								  </tr>
+								  
+								</tbody>
+							  </table>
+							  </div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</section>
+		<!-- /.content -->
+	  </div>
+  </div>
+  <!-- /.content-wrapper -->
+ 
+
+  <!-- Control Sidebar -->
+  <aside class="control-sidebar">
+	  
+	<div class="rpanel-title"><span class="pull-right btn btn-circle btn-danger"><i class="ion ion-close text-white" data-toggle="control-sidebar"></i></span> </div>  <!-- Create the tabs -->
+    <ul class="nav nav-tabs control-sidebar-tabs">
+      <li class="nav-item"><a href="#control-sidebar-home-tab" data-toggle="tab" class="active">Chat</a></li>
+      <li class="nav-item"><a href="#control-sidebar-settings-tab" data-toggle="tab">Todo</a></li>
+    </ul>
+    <!-- Tab panes -->
+    <div class="tab-content">
+      <!-- Home tab content -->
+      <div class="tab-pane active" id="control-sidebar-home-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey"><i class="ti-minus"></i></a>	
+			<p>Users</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+		  <div class="lookup lookup-sm lookup-right d-none d-lg-block">
+			<input type="text" name="s" placeholder="Search" class="w-p100">
+		  </div>
+          <div class="media-list media-list-hover mt-20">
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
+				</p>
+				<p>Praesent tristique diam...</p>
+				  <span>Just now</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
+				</p>
+				<p>Cras tempor diam ...</p>
+				  <span>33 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>			
+			
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-success" href="#">
+				<img src="../images/avatar/1.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Tyler</strong></a>
+				</p>
+				<p>Praesent tristique diam...</p>
+				  <span>Just now</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-danger" href="#">
+				<img src="../images/avatar/2.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Luke</strong></a>
+				</p>
+				<p>Cras tempor diam ...</p>
+				  <span>33 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-warning" href="#">
+				<img src="../images/avatar/3.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+
+			<div class="media py-10 px-0">
+			  <a class="avatar avatar-lg status-primary" href="#">
+				<img src="../images/avatar/4.jpg" alt="...">
+			  </a>
+			  <div class="media-body">
+				<p class="font-size-16">
+				  <a class="hover-primary" href="#"><strong>Evan</strong></a>
+				</p>
+				<p>In posuere tortor vel...</p>
+				  <span>42 min ago</span>
+			  </div>
+			</div>
+			  
+		  </div>
+
+      </div>
+      <!-- /.tab-pane -->
+      <!-- Settings tab content -->
+      <div class="tab-pane" id="control-sidebar-settings-tab">
+          <div class="flexbox">
+			<a href="javascript:void(0)" class="text-grey"><i class="ti-minus"></i></a>	
+			<p>Todo List</p>
+			<a href="javascript:void(0)" class="text-right text-grey"><i class="ti-plus"></i></a>
+		  </div>
+        <ul class="todo-list mt-20">
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_1" class="filled-in">
+			  <label for="basic_checkbox_1" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">Nulla vitae purus</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_2" class="filled-in">
+			  <label for="basic_checkbox_2" class="mb-0 h-15"></label>
+			  <span class="text-line">Phasellus interdum</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_3" class="filled-in">
+			  <label for="basic_checkbox_3" class="mb-0 h-15"></label>
+			  <span class="text-line">Quisque sodales</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 day</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_4" class="filled-in">
+			  <label for="basic_checkbox_4" class="mb-0 h-15"></label>
+			  <span class="text-line">Proin nec mi porta</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 days</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_5" class="filled-in">
+			  <label for="basic_checkbox_5" class="mb-0 h-15"></label>
+			  <span class="text-line">Maecenas scelerisque</span>
+			  <small class="badge bg-primary"><i class="fa fa-clock-o"></i> 1 week</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_6" class="filled-in">
+			  <label for="basic_checkbox_6" class="mb-0 h-15"></label>
+			  <span class="text-line">Vivamus nec orci</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 1 month</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_7" class="filled-in">
+			  <label for="basic_checkbox_7" class="mb-0 h-15"></label>
+			  <!-- todo text -->
+			  <span class="text-line">Nulla vitae purus</span>
+			  <!-- Emphasis label -->
+			  <small class="badge bg-danger"><i class="fa fa-clock-o"></i> 2 mins</small>
+			  <!-- General tools such as edit or delete-->
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_8" class="filled-in">
+			  <label for="basic_checkbox_8" class="mb-0 h-15"></label>
+			  <span class="text-line">Phasellus interdum</span>
+			  <small class="badge bg-info"><i class="fa fa-clock-o"></i> 4 hours</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5 by-1">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_9" class="filled-in">
+			  <label for="basic_checkbox_9" class="mb-0 h-15"></label>
+			  <span class="text-line">Quisque sodales</span>
+			  <small class="badge bg-warning"><i class="fa fa-clock-o"></i> 1 day</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+			<li class="py-15 px-5">
+			  <!-- checkbox -->
+			  <input type="checkbox" id="basic_checkbox_10" class="filled-in">
+			  <label for="basic_checkbox_10" class="mb-0 h-15"></label>
+			  <span class="text-line">Proin nec mi porta</span>
+			  <small class="badge bg-success"><i class="fa fa-clock-o"></i> 3 days</small>
+			  <div class="tools">
+				<i class="fa fa-edit"></i>
+				<i class="fa fa-trash-o"></i>
+			  </div>
+			</li>
+		  </ul>
+      </div>
+      <!-- /.tab-pane -->
+    </div>
+  </aside>
+  <!-- /.control-sidebar -->
+  
+  <!-- Add the sidebar's background. This div must be placed immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+  
+</div>
+<!-- ./wrapper -->
+  	
+	 
+	<!-- Vendor JS -->
+	<script src="js/vendors.min.js"></script>
+    <script src="assets/icons/feather-icons/feather.min.js"></script>	
+	<script src="assets/vendor_components/easypiechart/dist/jquery.easypiechart.js"></script>
+	<script src="assets/vendor_components/apexcharts-bundle/irregular-data-series.js"></script>
+	<script src="assets/vendor_components/apexcharts-bundle/dist/apexcharts.js"></script>
+	
+	<!-- Sunny Admin App -->
+	<script src="js/template.js"></script>
+	<script src="js/pages/dashboard.js"></script>
+	
+	
+</body>
+</html>
